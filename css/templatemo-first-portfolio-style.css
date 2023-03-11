@@ -536,34 +536,25 @@ strong {
   background-color: #f6f6f6;
   padding: 80px 0;
 }
-@media only screen and (max-width: 768px) {
 .education-box {
   display: flex;
-  align-items:auto;
+  align-items: center;
   margin-top: 20px;
 }
-
 .education-logo {
-  display: inline-blok;
-  flex: 2;
+  flex: 1;
   text-align: center;
-  margin-right: 20px;
 }
 .education-logo img {
-  display: inline-block;
-  max-width: 30%;
+  max-width: 80%;
   height: auto;
 }
 .education-info {
-  display: inline-block;
-  width: calc(100%-120px);
   flex: 3;
   padding-left: 60px;
 }
 .education-info h3 {
   margin-top: 0;
-  margin-buttom: 10px;
-}
 }
 /*---------------------------------------
   ABOUT              
